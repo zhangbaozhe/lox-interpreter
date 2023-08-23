@@ -57,7 +57,7 @@ class Scanner {
       case '{': addToken(LEFT_BRACE); break;
       case '}': addToken(RIGHT_BRACE); break;
       case ',': addToken(COMMA); break;
-      case '.': addToken(DOT); break;
+      case '.': addToken(DOT); break; // has some error when 1.0 + 2.0
       case '-': addToken(MINUS); break;
       case '+': addToken(PLUS); break;
       case ';': addToken(SEMICOLON); break;
